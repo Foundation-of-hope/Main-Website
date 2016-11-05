@@ -1,0 +1,16 @@
+{
+  "name": "foundation_of_hope",
+  "version": "1.0.0",
+  "description": "Main Website for Foundation of Hope",
+  "main": "index.js",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "styl": "stylus --watch css/style.styl"
+  },
+  "keywords": [],
+  "author": "Foundation of Hope",
+  "license": "ISC"
+}

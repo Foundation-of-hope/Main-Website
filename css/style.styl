@@ -1,0 +1,137 @@
+// Import all partials
+@require '_typography.styl'
+@require '_normalize.styl'
+@require '_animations.styl'
+
+// Declare color variables
+grey = rgba(128,128,130,0.38)
+black = #2B2B2B
+darkgrey = #404040
+skyblue = #6DBDD6
+slategrey = #7E8F7C
+
+// Declare image variables
+testImage = '../img/home_img_7.jpg'
+
+// General Styles on tags
+html, body
+	height 100%
+	overflow hidden
+
+ul
+	list-style-type none
+	
+body
+	background-color #efefef
+
+header 
+	width 100%
+	position fixed
+	left 0px
+	background #efefef
+	padding 10px 10px 10px 50px
+	font-size 30px
+	line-height 30px
+	z-index 0
+
+footer
+	height 7vh
+	color white
+	background-color black
+
+#home
+	min-height 80vh
+
+/* drawer menu pane*/
+#drawer
+	position fixed
+	top 44px
+	left -300px
+	height 100%
+	width 300px
+	background #2f2f2f
+	overflow-x hidden
+	overflow-y hidden
+	padding 20px
+	-webkit-overflow-scrolling touch
+	
+#drawer-toggle
+	position absolute
+	opacity 0
+
+#drawer-toggle-label
+	-webkit-touch-callout none
+	-webkit-user-select none
+	-khtml-user-select none
+	-moz-user-select none
+	-ms-user-select none
+	user-select none
+	left 0px
+	height 50px
+	width 50px
+	display block
+	position fixed
+	background rgba(255, 255, 255, .0)
+	z-index 1
+	/* adds our "hamburger" menu icon */
+	&:before
+		content ''
+		display block
+		position absolute
+		height 2px
+		width 24px
+		background: #8d8d8d
+		left 13px
+		top 18px
+		box-shadow 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d
+		
+#page-content
+	margin-left 0px
+	margin-top 50px
+	width 100%
+	height calc(100% - 50px)
+	overflow-x hidden
+	overflow-y scroll
+	-webkit-overflow-scrolling touch
+
+.flex
+	display flex
+	flex-direction column
+	justify-content center
+
+.text_center
+	text-align center
+	
+#home
+	#home_hero
+		background-image url(testImage)
+		background-color grey
+		background-size 100% 100%
+		background-repeat no-repeat
+		height 50vh
+		#hero_welcome
+			padding-left 5%
+	#description
+		height 50vh
+		h1
+			padding-bottom 7%
+	#showcase
+		height 50vh
+		../ #showcase_container
+			margin 0 auto
+			padding-left 7%
+			width 90%
+		../ .display
+			height 30vh
+		../ #display1
+			background-image url(testImage)
+			background-size 100% 100%
+			background-repeat no-repeat
+		../ #display2
+			background-image url(testImage)
+			background-size 100% 100%
+			background-repeat no-repeat
+		../ #display3
+			background-image url(testImage)
+			background-size 100% 100%
+			background-repeat no-repeat
