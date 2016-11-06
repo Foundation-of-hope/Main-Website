@@ -373,3 +373,25 @@ footer {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+#boardoftrustees .hero {
+  background-image: url("../img/home_img_7.jpg");
+  background-color: #2b2b2b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+#boardoftrustees .hero .contained {
+  padding-top: 7%;
+  margin: 5%;
+  font-weight: 500;
+  font-family: Raleway;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #2b2b2b;
+}
+#boardoftrustees .section {
+  margin-bottom: 3%;
+}
+#boardoftrustees .section .sub-section {
+  margin-left: 5%;
+}

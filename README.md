@@ -28,10 +28,10 @@ After each meeting i will update the "checklist" below. Below will find a descri
 
 
 - [ ] List everyone that has made a commit in the authors section of the package.json
-- [ ] About Us: History Page (Nishtha)
-- [ ] About Us: Board of Trustees (UtibeAbasi)
-- [ ] Home Page: (UtibeAbasi)
-- [ ] Logos: Need Logo(Rebecca)
+- [x] About Us: History Page (Nishtha)
+- [x] About Us: Board of Trustees (UtibeAbasi)
+- [x] Home Page: (UtibeAbasi)
+- [x] Logos: Need Logo(Rebecca)
 
 
 How should we approach CSS?
