@@ -2,6 +2,8 @@
 @require '_typography.styl'
 @require '_normalize.styl'
 @require '_animations.styl'
+@require '_portfolioItems'
+@require '_form.styl'
 
 // Declare color variables
 grey = rgba(128,128,130,0.38)
@@ -20,11 +22,11 @@ html, body
 
 ul
 	list-style-type none
-	
+
 body
 	background-color #efefef
 
-header 
+header
 	width 100%
 	position fixed
 	left 0px
@@ -54,7 +56,7 @@ footer
 	overflow-y hidden
 	padding 20px
 	-webkit-overflow-scrolling touch
-	
+
 #drawer-toggle
 	position absolute
 	opacity 0
@@ -84,7 +86,7 @@ footer
 		left 13px
 		top 18px
 		box-shadow 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d
-		
+
 #page-content
 	margin-left 0px
 	margin-top 50px
@@ -101,7 +103,7 @@ footer
 
 .text_center
 	text-align center
-	
+
 #home
 	#home_hero
 		background-image url(testImage)
@@ -135,7 +137,7 @@ footer
 			background-image url(testImage)
 			background-size 100% 100%
 			background-repeat no-repeat
-			
+
 #boardoftrustees
 	.hero
 		background-image url(testImage)
@@ -155,4 +157,3 @@ footer
 		margin-bottom 3%
 		.sub-section
 			margin-left 5%
-			
