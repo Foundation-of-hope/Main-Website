@@ -18,6 +18,9 @@ app.use('/js', express.static('js'));
 app.use('/css', express.static('css'));
 app.use('/img', express.static('img'));
 
+app.set('views', __dirname + '/views');
+app.set('view engine', 'html');
+
 apiroutes(app);
 
 app.listen(PORT, function(){
