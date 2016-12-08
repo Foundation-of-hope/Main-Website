@@ -302,13 +302,13 @@ ul {
   list-style-type: none;
 }
 body {
-  background-color: #efefef;
+  background-color: #fff;
 }
 header {
   width: 100%;
   position: fixed;
   left: 0px;
-  background: #efefef;
+  background: #fff;
   padding: 10px 10px 10px 50px;
   font-size: 30px;
   line-height: 30px;
@@ -450,55 +450,9 @@ footer {
 #contact-content {
   margin-top: 50px;
 }
-@media (min-width: 961px) and (max-width: 1279px) {
+@media (min-width: 961px), (max-height: 1279px) {
   #contact-content .col-lg-1,
-  #contact-content .col-lg-10,
-  #contact-content .col-lg-11,
-  #contact-content .col-lg-12,
-  #contact-content .col-lg-2,
-  #contact-content .col-lg-3,
-  #contact-content .col-lg-4,
-  #contact-content .col-lg-5,
-  #contact-content .col-lg-6,
-  #contact-content .col-lg-7,
-  #contact-content .col-lg-8,
-  #contact-content .col-lg-9,
-  #contact-content .col-md-1,
-  #contact-content .col-md-10,
-  #contact-content .col-md-11,
-  #contact-content .col-md-12,
-  #contact-content .col-md-2,
-  #contact-content .col-md-3,
-  #contact-content .col-md-4,
-  #contact-content .col-md-5,
-  #contact-content .col-md-6,
-  #contact-content .col-md-7,
-  #contact-content .col-md-8,
-  #contact-content .col-md-9,
-  #contact-content .col-sm-1,
-  #contact-content .col-sm-10,
-  #contact-content .col-sm-11,
-  #contact-content .col-sm-12,
-  #contact-content .col-sm-2,
-  #contact-content .col-sm-3,
-  #contact-content .col-sm-4,
-  #contact-content .col-sm-5,
-  #contact-content .col-sm-6,
-  #contact-content .col-sm-7,
-  #contact-content .col-sm-8,
-  #contact-content .col-sm-9,
-  #contact-content .col-xs-1,
-  #contact-content .col-xs-10,
-  #contact-content .col-xs-11,
-  #contact-content .col-xs-12,
-  #contact-content .col-xs-2,
-  #contact-content .col-xs-3,
-  #contact-content .col-xs-4,
-  #contact-content .col-xs-5,
-  #contact-content .col-xs-6,
-  #contact-content .col-xs-7,
-  #contact-content .col-xs-8,
-  #contact-content .col-xs-9 {
+  #contact-content .col-lg-2 {
     padding-right: 0px;
     padding-left: 6px;
   }
