@@ -27,7 +27,7 @@ var hist = [
 	},
 	{
 		year: '2002-2004',
-		content: "In 2002 Through grants from SCDC (Stamford Cultural Development Corporation) offers a visual and performing program" + '</br>' + "In 2003, partnered with the Boy Scouts of America to integrate Troup 1804" + '</br>' + "In 2004, the Center also partnered with Girls Scout of America",
+		content: "In 2002 Through grants from SCDC (Stamford Cultural Development Corporation) offers a visual and performing program" + '<br/>' + "In 2003, partnered with the Boy Scouts of America to integrate Troup 1804" + '</br>' + "In 2004, the Center also partnered with Girls Scout of America",
 		image: '../img/1984.jpg'
 	},
 	{
@@ -120,9 +120,9 @@ function displayModal(evt) {
 	var $clickedImage = $(evt.target);
 	var $item = $clickedImage.closest('.portfolio-item');
 	// modal title
-	$('.modal-title').text($item.data('year'));
+	$('.modal-title').html($item.data('year'));
 	// modal mody
-		$('#modalBody').text($item.data('content'));
+		$('#modalBody').html($item.data('content'));
 		$('#infoModal').modal('toggle');
 }
 
