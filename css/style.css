@@ -346,6 +346,20 @@ header {
   line-height: 30px;
   z-index: 0;
 }
+list-style-type none,
+body {
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  background: #fff;
+  padding: 10px 10px 10px 50px;
+  font-size: 30px;
+  line-height: 30px;
+  z-index: 0;
+}
 footer {
   height: 7vh;
   color: #fff;
@@ -412,6 +426,11 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
+.flex_v {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .text_center {
   text-align: center;
 }
@@ -456,4 +475,66 @@ footer {
 }
 #boardoftrustees .section #boardoftrustees {
   font-size: 0.9em;
+}
+#home #home_hero {
+  background-image: url("../img/home/home_img_1.jpg");
+  background-color: rgba(128,128,130,0.38);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+#home #home_hero #hero_welcome {
+  padding-left: 5%;
+}
+#home #description {
+  height: 50vh;
+}
+#home #description h1 {
+  padding-bottom: 7%;
+}
+#home #showcase {
+  height: 50vh;
+}
+#home #showcase_container {
+  margin: 0 auto;
+  padding-left: 7%;
+  width: 90%;
+}
+#home .display {
+  height: 30vh;
+}
+#home #display1 {
+  background-image: url("../img/home/home_img_1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#home #display2 {
+  background-image: url("../img/home/home_img_1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#home #display3 {
+  background-image: url("../img/home/home_img_1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#boardoftrustees .hero {
+  background-image: url("../img/home/home_img_1.jpg");
+  background-color: #2b2b2b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+#boardoftrustees .hero .contained {
+  padding-top: 7%;
+  margin: 5%;
+  font-weight: 500;
+  font-family: Raleway;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: #2b2b2b;
+}
+#boardoftrustees .section {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
