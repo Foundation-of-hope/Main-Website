@@ -1,109 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Foundation of Hope</title>
-      <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="../css/theme-default.min.css"><!--  CSS for the form    -->
-      <link rel="stylesheet" type="text/css" href="../css/style.css">
-      <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <meta charset="UTF-8">
+  <title>Foundation of Hope</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/theme-default.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-	<input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
-	<label for="drawer-toggle" id="drawer-toggle-label"></label>
-	<header>&nbsp</header>
-	<nav id="drawer">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="history.html">History</a></li>
-			<li><a href="boardoftrustees.html">Board of Trustees</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-            <li><a href="faq.html">Frequently Asked Questions</a></li>
-		</ul>
-	</nav>
-<div id="page-content" class="container">
-  <div id="boardoftrustees">
-    <div class="hero">
-      <div class="contained">
-        <h3 class="text-center">We are here to answer any question's you have about Foundation of Hope, to help increase efficiency, please visit our Frequently Asked Questions first, to see if your question has already been answered.</h3>
-        <h3 class="text-center">For additional questions and more information please call us.</h3>
-      </div><!--   end .contained   -->
-    </div><!-- end .hero   -->
-  </div><!--  end #boardoftrustees -->
-  <div id="contact-content">
-        <div class="row ">
-         <div class="col-md-8">
+  <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+  <label for="drawer-toggle" id="drawer-toggle-label"></label>
+  <header>&nbsp</header>
+  <nav id="drawer">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="boardoftrustees.html">Board of Trustees</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+      <li><a href="faq.html">Frequently Asked Questions</a></li>
+    </ul>
+  </nav>
+  <div id="page-content">
+    <div id="boardoftrustees" class="container">
+      <div class="hero">
+        <div class="contained">
+          <h3 class="text-center">We are here to answer any question's you have about Foundation of Hope, to help increase efficiency, please visit our Frequently Asked Questions first, to see if your question has already been answered.</h3>
+          <h3 class="text-center">For additional questions and more information please call us.</h3>
+        </div>
+      </div>
+    </div>
+    <div id="contact-content">
+      <div class="row ">
+        <div class="col-md-8">
           <form class="form-horizontal well clearfix" id="registration-form">
-          <div class="form-group">
-          <label for="firs_name" class="col-sm-2 control-label">First Name: </label>
-          <div class="col-sm-10">
-          <input type="text" class="form-control" id="firs_name" placeholder="First Name" data-validation="custom" data-validation-length="max100" data-validation-regexp="^([a-zA-Z]+)$" data-validation-error-msg="Please tell us your name">
+            <div class="form-group">
+              <label for="firs_name" class="col-sm-2 control-label">First Name: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="firs_name" placeholder="First Name" data-validation="custom" data-validation-length="max100" data-validation-regexp="^([a-zA-Z]+)$" data-validation-error-msg="Please tell us your name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="last_name" class="col-sm-2 control-label">Last Name: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="last_name" placeholder="Last Name" data-validation="custom" data-validation-length="max100" data-validation-regexp="^([a-zA-Z]+)$" data-validation-error-msg="Please tell us your name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email: </label>
+              <div class="col-sm-10">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email" data-validation="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputSubject" class="col-sm-2 control-label">Subject: </label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputSubject" placeholder="Subject" data-validation="alphanumeric" data-validation-error-msg="Please tell us the subject">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="textmessage" class="col-sm-2 control-label">Message: </label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="7" placeholder="Tell us how we can help" data-validation="alphanumeric" data-validation-error-msg="Please tell us why did you contact us" data-validation-allowing="-_ "></textarea>
+              </div>
+            </div> 
+            <div class="form-group row col-sm-7">
+              <div class=" col-lg-12 col-lg-offset-2">
+                <button type="submit" class="btn btn-primary" value="Validate">Submit</button>
+                <button type="reset" class="btn btn-default" value="Reset form">Reset</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="col-sm-12">
+            <h1>Contact us </h1>
+          </div>  
+          <div class="col-sm-12">
+            <h4>Email :</h4>
+            <a href="mailto:Events@inspiregivehope.com">Events@inspiregivehope.com</a>
           </div>
-          </div><!--           end first name         -->
-          <div class="form-group">
-          <label for="last_name" class="col-sm-2 control-label">Last Name: </label>
-          <div class="col-sm-10">
-          <input type="text" class="form-control" id="last_name" placeholder="Last Name" data-validation="custom" data-validation-length="max100" data-validation-regexp="^([a-zA-Z]+)$" data-validation-error-msg="Please tell us your name">
+          <div class="col-sm-12">
+            <h4>Call us (9:AM - 3:00 PM EST) :</h4>
+            <p>646.820.3771</p>
           </div>
-          </div><!--           end first name         -->
-          <div class="form-group">
-          <label for="email" class="col-sm-2 control-label">Email: </label>
-          <div class="col-sm-10">
-          <input type="email" name="email" class="form-control" id="email" placeholder="Email" data-validation="email">
-          </div>
-          </div><!--           end email         -->
-          <div class="form-group">
-          <label for="inputSubject" class="col-sm-2 control-label">Subject: </label>
-          <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputSubject" placeholder="Subject" data-validation="alphanumeric" data-validation-error-msg="Please tell us the subject">
-          </div>
-          </div><!--          end subject         -->
-          <div class="form-group">
-          <label for="textmessage" class="col-sm-2 control-label">Message: </label>
-          <div class="col-sm-10">
-          <textarea class="form-control" rows="7" placeholder="Tell us how we can help" data-validation="alphanumeric" data-validation-error-msg="Please tell us why did you contact us" data-validation-allowing="-_ "></textarea>
-          </div>
-          </div> <!--          end message         -->
-          <div class="form-group row col-sm-7">
-          <div class=" col-lg-12 col-lg-offset-2">
-          <button type="submit" class="btn btn-primary" value="Validate">Submit</button>
-          <button type="reset" class="btn btn-default" value="Reset form">Reset</button>
-         </div>
-          </div><!--         Buttom grouping           -->
-         </form>
-         </div><!--   end col-sm-8      -->
-           <div class="col-md-4 text-center">
-             <div class="col-sm-12">
-             <h1>Contact us </h1>
-                 </div>  <!--end contact us h1-->
-             <div class="col-sm-12">
-             <h4>Email :</h4>
-             <a href="mailto:Events@inspiregivehope.com">Events@inspiregivehope.com</a>
-                </div><!--end email-->
-             <div class="col-sm-12">
-             <h4>Call us (9:AM - 3:00 PM EST) :</h4>
-             <p>646.820.3771</p>
-                </div><!--end email-->
-              <div class="col-sm-12">
-             <h4>Foundation of Hope Locations :</h4>
-             <p>Stamford Office</p>
-             <p>Greenwich Office</p>
-             <p>Norwalk Office</p>
-                </div><!--end locations-->
-               
-           </div><!--end row 4-->
-        </div> <!--   end row     -->
-         </div><!--    #contact-content special styles     -->
-   <footer class="flex text_center">
-			<div>
-				Foundation of Hope | 2017
-			</div>
-		</footer>
-  </div><!-- end #page-content and .container   -->
-     <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
-     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-     <script type="text/javascript" src="../js/tingle.min.js"></script>
-     <script type="text/javascript" src="../js/jquery.form-validator.min.js"></script>
-     <script type="text/javascript" src="../js/script.js"></script>
+          <div class="col-sm-12">
+            <h4>Foundation of Hope Locations :</h4>
+            <p>Stamford Office</p>
+            <p>Greenwich Office</p>
+            <p>Norwalk Office</p>
+            </div>
+        </div>
+      </div> 
+    </div>
+    <footer class="flex text_center">
+      <div>
+        Foundation of Hope | 2017
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/tingle.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.form-validator.min.js"></script>
+  <script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>
