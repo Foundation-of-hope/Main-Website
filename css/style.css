@@ -302,13 +302,13 @@ ul {
   list-style-type: none;
 }
 body {
-  background-color: #efefef;
+  background-color: #fff;
 }
 header {
   width: 100%;
   position: fixed;
   left: 0px;
-  background: #efefef;
+  background: #fff;
   padding: 10px 10px 10px 50px;
   font-size: 30px;
   line-height: 30px;
@@ -447,3 +447,20 @@ footer {
 #boardoftrustees .section .sub-section {
   margin-left: 5%;
 }
+<<<<<<< HEAD
+=======
+#contact-content {
+  margin-top: 50px;
+}
+@media (min-width: 961px), (max-height: 1279px) {
+  #contact-content .col-lg-1,
+  #contact-content .col-lg-2 {
+    padding-right: 0px;
+    padding-left: 6px;
+  }
+}
+.faq-custom-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+>>>>>>> origin/dev_contactandfaq
