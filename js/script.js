@@ -129,3 +129,4 @@ function displayModal(evt) {
 // calling functions
 createPortfolioItem()
 $('.img-responsive').on('click', displayModal)
+ 

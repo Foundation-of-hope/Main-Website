@@ -6,7 +6,7 @@ var apiroutes = require('./routes/api-routes');
 // Sets up the Express App and connect to server or local host whatever is available
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 9080;
+var PORT = process.env.PORT || 4580;
 
 // this is the confirm from body parser
 app.use(bodyParser.json());
