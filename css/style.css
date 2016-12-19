@@ -335,7 +335,8 @@ header {
 }
 #home #outro {
   height: 27vh;
-  background-color: #bdb5b5;
+  background-color: #000;
+  color: #fff;
   margin-bottom: 5%;
 }
 #boardofdirectors .hero {
