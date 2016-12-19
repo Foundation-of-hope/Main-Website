@@ -1,16 +1,14 @@
 // Import all partials
-@require '_normalize.styl'
-@require '_typography.styl'
-@require '_header.styl'
-@require '_home.styl'
-@require '_boardofdirectors.styl'
+@require 'styl/_normalize.styl'
+@require 'styl/_typography.styl'
+@require 'styl/_header.styl'
+@require 'styl/_home.styl'
+@require 'styl/_boardofdirectors.styl'
 
-// @require '_portfolioItems.styl'
-// @require '_form.styl'
+@require 'styl/_portfolioItems.styl'
+@require 'styl/_form.styl'
 
-
-
-
+@require 'styl/_faq.styl'
 
 // General Styles on tags
 html, body
@@ -54,16 +52,5 @@ footer
   text-align center
 
 
-
-// Contact Page Custom Styles
-	margin-top 50px
-	@media (min-width:961px), (max-height: 1279px)
 #contact-content
-			padding-right 0px
-		.col-lg-1, .col-lg-2
-			padding-left 6px
-
-// faq Page Custom Styles
-.faq-custom-content
-	margin-top 50px
-	margin-bottom 50px
+  margin-top 50px
