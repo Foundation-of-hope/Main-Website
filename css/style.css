@@ -318,7 +318,7 @@ header {
   box-shadow: 0 6px 0 #8d8d8d, 0 12px 0 #8d8d8d;
 }
 #home #home_hero {
-  background: linear-gradient(rgba(50,50,50,0.1), rgba(50,50,50,0.1)), url("../img/home/home_img_1.jpg");
+  background: linear-gradient(rgba(50,50,50,0.3), rgba(50,50,50,0.3)), url("../img/home/home_img_1.jpg");
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -421,6 +421,16 @@ hr .faqstyle {
 a .tingle_button_decoration {
   color: #f00;
 }
+.panel-primary .panel-heading {
+  background-color: rgba(32,32,33,0.98);
+  border-color: rgba(32,32,33,0.98);
+}
+.panel-primary {
+  border-color: rgba(32,32,33,0.98);
+}
+.bg-info {
+  background-color: #fff;
+}
 html,
 body {
   height: 100%;
@@ -434,8 +444,7 @@ body {
 }
 footer {
   height: 7vh;
-  color: #fff;
-  background-color: #000;
+  color: #000;
 }
 #page-content {
   margin-left: 0px;

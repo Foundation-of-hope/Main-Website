@@ -66,7 +66,7 @@ var author_array=[
 	"- Bil Keane",
 ];
 
-$('#home_hero').css({'background':' linear-gradient(rgba(50,50,50,0.7),rgba(50,50,50,0.7)),url(img/home/'+img_array[Math.floor(Math.random()*img_array.length)]+')'});
+$('#home_hero').css({'background':' linear-gradient(rgba(50,50,50,0.3),rgba(50,50,50,0.3)),url(img/home/'+img_array[Math.floor(Math.random()*img_array.length)]+')'});
 $('#home_hero').css({'background-size':'cover'});
 $('#home_hero').css({'background-repeat':'no-repeat'});
 
